@@ -1,49 +1,49 @@
 <!-- DOCTYPE HTML -->
 <html>
 <head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
 	<title>My portfolio page</title>
-	<style type="text/css">
-	<!-- CSS goes here --> 
-	</style>
+	
 	<script type="text/js">
 	<!-- Javascript goes here -->
 	</script>
 </head>
+
 <body>
 <h1>My portfolio<h1>
-<!-- Add HTML below -->
 
-<img src="https://imgs.xkcd.com/comics/compiling.png" />
+<img id="icon" src="https://imgs.xkcd.com/comics/code_quality.png" alt="how i feel"/>
 
-<h3> joseph </h3>
-<h3> my number: +306974343112 </h3>
+<h3 class="class1"> Personal details </h3>
+<p> <span1>my name:</span1> joseph </p>
+<p> <span1>my number:</span1> +306974343112 </p>
+<p> <span1>my email:</span1> iosif.tsaparas@gmail.com </p>
 
-<h3>Interests include:</h3>
-		<ol>
-			<li>impressively cool interest #1</li>
+<h3 class="class1">interests include</h3>
+		<ul>
+			<li><span>impressively cool interest #1</span></li>
 			<li>impressively cool interest #2</li>
-			<li>impressively cool interest #3</li>		
-		</ol>
+			<li>impressively cool interest #3</li>	
+			<li>impressively cool interest #4</li>
+			<li>impressively cool interest #5</li>	
+			<li>impressively cool interest #6</li>
+			<li>impressively cool interest #7</li>	
+		</ul>
 
+<!-- Contact form -->
+<h3 class="class1"> Drop me a line... </h3>
 <form action="/my-handling-form-page" method="post">
-    <div>
-        <label for="name">Name:</label>
-        <input type="text" id="name" />
-    </div>
-    <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" />
-    </div>
+
     <div>
         <label for="msg">Message:</label>
-        <textarea id="msg"></textarea>
-    </div>
+        <span2><textarea id="msg"></textarea></span2>
+    </div><br>
     
     <div class="button">
         <button type="submit">Send your message</button>
     </div>
 </form>
-
 
 </body>
 </html>
